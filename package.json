@@ -1,0 +1,31 @@
+{
+  "name": "lovecraft-bot",
+  "version": "0.0.1",
+  "description": "A twitter bot that uses markov chains to generate tweets based on Lovecraft's stories",
+  "main": "index.js",
+  "scripts": {
+    "test": "node console.log(1)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximumdata/lovecraft-tweet-bot.git"
+  },
+  "keywords": [
+    "Twitter",
+    "bot",
+    "markov",
+    "bot",
+    "lovecraft"
+  ],
+  "author": "Mike Dettmer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maximumdata/lovecraft-tweet-bot/issues"
+  },
+  "homepage": "https://github.com/maximumdata/lovecraft-tweet-bot#readme",
+  "dependencies": {
+    "markov-generator": "^1.0.8",
+    "mongoose": "^4.6.6",
+    "twitter": "^1.4.0"
+  }
+}
