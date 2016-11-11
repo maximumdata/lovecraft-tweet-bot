@@ -4,7 +4,7 @@ let logic = require('./app/logic')
 let postRule = new schedule.RecurrenceRule()
 postRule.minute = 15
 
-schedule.scheduleJob(postRule, function () {
+schedule.scheduleJob('0 */4 * * *', function () {
   logic.post(() => {
     console.log('posted at ' + Date.now())
   })
